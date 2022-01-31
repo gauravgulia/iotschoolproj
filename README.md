@@ -1,8 +1,8 @@
 # iotschoolproj
 
-Specify a protocol that communicates over UDP with an Internet of Things (IoT) device, a light bulb. The protocol must allow a client program to perform the following operations on a light bulb server:
+The project specifies a protocol that communicates over UDP with an Internet of Things (IoT) device, a light bulb. The protocol allows a client program to perform the following operations on a light bulb server:
 
-1.Turn the light bulb on and set the color (if the light bulb is already onand color the same, the operation should work without error)
+1.Turn the light bulb on and set the color (if the light bulb is already on and color the same, the operation should work without error)
 
 2.Change the light color 
 
@@ -11,14 +11,14 @@ Specify a protocol that communicates over UDP with an Internet of Things (IoT) d
 4.Turn the light off (If the light bulb is already off, the operation shouldworkwithout error)
 
 
-The protocol must include a mechanism for:
+The protocol includes a mechanism for:
 
 1.Error reporting:  e.g. the bulb is not functioning, color specified is not supported, message format is not recognized
 
 2.Reliability: Provide a response that the operation worked successfully.  Also specify the behavior of the clientwhen no response is received.
 
 
-The protocol must specify:
+The protocol specifies:
 
 1.Message Format (fields in the message, size in bytes, possible values)
 
